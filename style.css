@@ -1,4 +1,20 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
+    text-align: left;
+}
+
+form {
+    margin-left: 120px;
+}
 
 
+.keyword {
+    background-color: #FFFF00
+}
