@@ -4,7 +4,7 @@ function compute()
     //Get the data needed for the calculation
     var principal = document.getElementById("principal").value;
     //Verify the amount of money is positive
-    if(principal <= 0) {
+    if(principal <= 0 || principal=="") {
         alert("Enter a positive number");
         principal.focus();
     }
